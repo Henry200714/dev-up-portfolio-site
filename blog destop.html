@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body{
+    padding-left: 200px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.page wrapper {
+    max-width: 1152px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 27px 60px;
+}
+header nav {
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px 40px;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover, nav a.active {
+    color: #FF6464;
+}
+.container{
+    width: 100%;
+    max-width: 681px;
+    margin: 0 auto;
+    padding: 40px 20px 50px;
+}
+.blog-tittle{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+.post{
+    padding-bottom: 29px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.h2{
+    font-size: 50%;
+    font-weight: 500;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+
+.meta{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.date{ color: #21243d;}
+.seperator{ color: #000;}
+.cat{color: #3e95ec;}
+.p{
+    font-size: 16px;
+    line-height: 23.5px;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+.social-icons {
+    display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        font-size: 26px;
+        margin: 0 14px;
+        color: #21243D;
+    }
+.social-icons a{ text-decoration: none;
+        font-size: 100px;
+        color: #000000;
+        transition: 0.3s;
+    }
+.copyright{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+    </style>
+</head>
+<body>
+
+    <div class="page wrapper">
+        <header>
+            <nav>
+                <a href="#" class="active"> Blog</a>
+                <a href="#">Works</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+    </div>
+    <div class="container">
+    <h1 class="blog-tittle"> Blog</h1>
+
+    <div class="post">
+        <h2>UI interaction of the week</h2>
+        <div class="meta">
+            <h3><span class="date"> 12 feb 2019</span>
+            <span class="seprator">|</span>
+            <span class="cat">Espress,  Handlebars</span></h3> 
+        </div>
+        <p> amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.officia conseqent duis enim velit. Exerciation veniam consequat sunt nostrud amet. </p>
+    </div>    
+
+    <div class="post">
+        <h2>UI interaction of the week</h2>
+        <div class="meta">
+            <h3><span class="date"> 12 feb 2019</span>
+            <span class="seprator">|</span>
+            <span class="cat">Espress,  Handlebars</span></h3> 
+        </div>
+        <p> amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.officia conseqent duis enim velit. Exerciation veniam consequat sunt nostrud amet. </p>
+    </div>    
+
+    <div class="post">
+        <h2>UI interaction of the week</h2>
+        <div class="meta">
+            <h3><span class="date"> 12 feb 2019</span>
+            <span class="seprator">|</span>
+            <span class="cat">Espress,  Handlebars</span></h3> 
+        </div>
+        <p> amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.officia conseqent duis enim velit. Exerciation veniam consequat sunt nostrud amet. </p>
+        
+    </div>    
+
+    <div class="post">
+        <h2>UI interaction of the week</h2>
+        <div class="meta">
+            <h3><span class="date"> 12 feb 2019</span>
+            <span class="seprator">|</span>
+            <span class="cat">Espress,  Handlebars</span></h3> 
+        </div>
+        <p> amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.officia conseqent duis enim velit. Exerciation veniam consequat sunt nostrud amet. </p>
+    </div>    
+
+    <footer>
+        <div class="social-icon">
+            <a href="https://Facebook.com" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com"  title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" title="X"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://Linkedin.com"  title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+        
+        <div class="copyright"> Copywright &copy 2020  All rights reserved</div>
+    </footer>
+</div>
+</body>
+</html>
